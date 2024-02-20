@@ -19,7 +19,7 @@ defmodule SampleTestSuite do
   end
 
   def number do
-    value = Enum.random(0..100)
+    value = Enum.random(0..110)
     Process.sleep(value * 10)
     value
   end
