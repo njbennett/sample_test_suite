@@ -4,6 +4,10 @@ defmodule SampleTestSuiteTest do
   use ExUnit.Case
   doctest SampleTestSuite
 
+  test "always less than 150" do
+    assert SampleTestSuite.number() < 150
+  end
+
   test "always less than 101" do
     assert SampleTestSuite.number() < 101
   end
